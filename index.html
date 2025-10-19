@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boleta de Pago</title>
+
+    <!-- Vinculamos el CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Boleta de Pago</h1>
+
+    <form id="formBoleta">
+        <h2>Ingresar producto</h2>
+
+        <label for="nombre">Nombre del producto</label>
+        <input type="text" id="nombre" placeholder="Ingresa el producto">
+
+        <label for="cantidad">Cantidad</label>
+        <input type="number" id="cantidad" placeholder="Ingresa la cantidad">
+
+        <label for="precio">Precio unitario (S/):</label>
+        <input type="number" id="precio" placeholder="Ingresa el precio en S/">
+
+        <button type="button" id="agregar">Agregar producto</button>
+    </form>
+
+    <div id="boleta">
+        <div id="boletaContenido">
+            <img src="img/logo.jpg" id="logo" alt="foto del logo de la marca">
+            <table id="tablaBoleta">
+                    <thead>
+                        <tr>
+                            <th>Producto</th>
+                            <th>Cant.</th>
+                            <th>Precio</th>
+                            <th>Subtotal</th>
+                        </tr>
+                    </thead>
+                <tbody></tbody>
+            </table>
+            <h3 style="color: rgb(219, 111, 142);">Total: S/<span id="total">0.00</span></h3>
+            <p style="font-size: 18px;">Tu sonrisa es la mejor belleza</p>
+            <h2>¡GRACIAS por confiar </h2>
+            <h2>en nosotros!</h2>
+            <img id="qr" src="img/qr.png" alt="QR">
+        </div>
+    </div>
+
+    <button id="descargar">Descargar boleta como imagen</button>
+
+    <!-- Librería para convertir la boleta en imagen -->
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+
+    <!-- Vinculamos el JS -->
+    <script src="script.js"></script>
+</body>
+</html>

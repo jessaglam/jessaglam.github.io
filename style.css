@@ -1,0 +1,129 @@
+@font-face {
+    src: url('https://tu-sitio.com/fonts/TTHoves-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    color: rgb(219, 111, 142);
+    margin-bottom: 10px;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 350px;
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-top: 4px;
+}
+
+button {
+    background-color:rgb(219, 111, 142);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 100%;
+    font-size: 15px;
+}
+
+button:hover {
+    color: rgb(219, 111, 142);
+    background-color: rgb(255, 239, 240);
+}
+
+/* BOLETA */
+
+#logo{
+    width: 300px;
+}
+
+#boleta {
+    background-image: url('img/fondo.png');
+    background-color: white;
+    background-size: cover; /* o 'contain' si prefieres que se vea completa */
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    width: 500px;
+    text-align: center;
+}
+#boletaContenido{
+    background: rgb(255, 239, 240);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    text-align: center;
+    font-family: 'TTHoves';
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    border-bottom: 1px solid rgb(219, 111, 142);
+}
+
+th, td {
+    color: rgb(219, 111, 142);
+    padding: 8px;
+}
+
+th {
+    color: white;
+    background-color: rgb(219, 111, 142);
+}
+
+h3 {
+    font-size: x-large;
+    text-align: right;
+    margin-top: 10px;
+}
+
+h2{
+    color: rgb(219, 111, 142);
+    text-transform: uppercase;
+    line-height: 0.5;
+    font-family: 'TTHoves';
+}
+
+#qr{
+    width: 150px;
+}
+
+#descargar {
+    margin-top: 20px;
+    background-color: rgb(219, 111, 142);
+    width: 300px;
+}
+
+#descargar:hover {
+    color: rgb(219, 111, 142);
+    background-color: rgb(255, 239, 240);
+}
