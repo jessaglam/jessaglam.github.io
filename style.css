@@ -17,11 +17,12 @@ h1 {
 }
 
 form {
+    text-align: center;
     background: white;
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    width: 350px;
+    width: 300px;
     margin-bottom: 30px;
 }
 
@@ -32,7 +33,7 @@ label {
 }
 
 input {
-    width: 100%;
+    width: 50%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 6px;
@@ -47,7 +48,7 @@ button {
     border-radius: 8px;
     cursor: pointer;
     margin-top: 15px;
-    width: 100%;
+    width: 50%;
     font-size: 15px;
 }
 
@@ -126,4 +127,62 @@ h2{
 #descargar:hover {
     color: rgb(219, 111, 142);
     background-color: rgb(255, 239, 240);
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    form {
+        width: 100%;
+        padding: 15px;
+    }
+
+    #boleta {
+        width: 100%;
+        padding: 20px;
+    }
+
+    #boletaContenido {
+        padding: 15px;
+    }
+
+    #logo {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    table th, table td {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    #qr {
+        width: 120px;
+    }
+
+    #descargar {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px;
+    }
 }
