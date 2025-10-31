@@ -108,6 +108,11 @@ td{
     vertical-align: middle; /* Alinea verticalmente el contenido */
 }
 
+table td {
+    white-space: nowrap; /* Evita que el texto se divida en dos líneas */
+    font-size: 15px;
+}
+
 
 
 h3 {
@@ -202,12 +207,13 @@ h2{
         font-size: 14px;
         padding: 8px;
     }
-}
-td{
-    white-space: nowrap; /* Evita que el contenido se divida en varias líneas */
-    vertical-align: middle; /* Alinea verticalmente el contenido */
-}
-table {
+    td{
+        white-space: nowrap; /* Evita que el contenido se divida en varias líneas */
+        vertical-align: middle; /* Alinea verticalmente el contenido */
+    }
+    table {
     margin-top: 20px;
     margin-bottom: 10px;
+    }
 }
+
