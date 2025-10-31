@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'TTHoves', Arial, sans-serif;
     background-color: #f6f6f6;
     display: flex;
     flex-direction: column;
@@ -81,14 +81,16 @@ button:hover {
     border-radius: 12px;
     box-shadow: 0 0 10px rgba(0,0,0,0.15);
     text-align: center;
-    font-family: 'TTHoves';
+    font-family: 'TTHoves', Arial, sans-serif;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 15px;
+    margin-top: 20px;
     border-bottom: 1px solid rgb(219, 111, 142);
+    margin-bottom: 10px;
+
 }
 
 th, td {
@@ -101,17 +103,25 @@ th {
     background-color: rgb(219, 111, 142);
 }
 
+td{
+    white-space: nowrap; /* Evita que el contenido se divida en varias líneas */
+    vertical-align: middle; /* Alinea verticalmente el contenido */
+}
+
+
+
 h3 {
     font-size: x-large;
     text-align: right;
     margin-top: 10px;
+    text-align: center;
 }
 
 h2{
     color: rgb(219, 111, 142);
     text-transform: uppercase;
     line-height: 0.5;
-    font-family: 'TTHoves';
+    font-family: 'TTHoves', Arial, sans-serif;
 }
 
 #qr{
@@ -145,6 +155,8 @@ h2{
     }
 
     #boletaContenido {
+        line-height: 1.4;
+        letter-spacing: 0.5px;
         padding: 15px;
     }
 
@@ -157,6 +169,11 @@ h2{
         font-size: 14px;
         padding: 6px;
     }
+
+    td, th {
+    font-size: 16px;
+    font-family: 'TTHoves', Arial, sans-serif;
+}
 
     h1 {
         font-size: 22px;
@@ -185,4 +202,12 @@ h2{
         font-size: 14px;
         padding: 8px;
     }
+}
+td{
+    white-space: nowrap; /* Evita que el contenido se divida en varias líneas */
+    vertical-align: middle; /* Alinea verticalmente el contenido */
+}
+table {
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
