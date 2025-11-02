@@ -17,10 +17,10 @@ document.getElementById("agregar").addEventListener("click", () => {
 
     const fila = document.createElement("tr");
     fila.innerHTML = `
-        <td>${nombre}</td>
-        <td>${cantidad}</td>
-        <td>S/ ${precio.toFixed(2)}</td>
-        <td>S/ ${subtotal.toFixed(2)}</td>
+        <td class="producto">${nombre}</td>
+        <td class="numero">${cantidad}</td>
+        <td class="precio">S/ ${precio.toFixed(2)}</td>
+        <td class="numero">S/ ${subtotal.toFixed(2)}</td>
     `;
     tabla.appendChild(fila);
 
