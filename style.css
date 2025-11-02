@@ -110,7 +110,6 @@ td {
     padding: 8px;
     vertical-align: middle;
     font-size: 15px;
-    font-family: 'TTHoves', Arial, sans-serif;
 }
 
 /* Producto con salto de línea */
@@ -130,6 +129,7 @@ td.numero {
     text-align: center;
     color: rgb(219, 111, 142);
     font-size: medium;
+    font-family: 'TTHoves', Arial, sans-serif;
 }
 
 /* Total */
